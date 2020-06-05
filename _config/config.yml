@@ -1,0 +1,12 @@
+
+NorthCreationAgency\CriticalCSS\PageExtension:
+  main_css_path: "dist/css/styles.min.css"
+  ccss_path: "dist/css/"
+
+Page:
+  extensions:
+    - NorthCreationAgency\CriticalCSS\PageExtension
+
+SilverStripe\Assets\Image:
+  extensions:
+    - NorthCreationAgency\CriticalCSS\ImageExtension
